@@ -1,0 +1,143 @@
+.content {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .content > div {
+    margin-right: 20px;
+  }
+  .content > img {
+    border-radius: 50%;
+  }
+  
+  .heroimg {
+    /* height: 600px; */
+    padding: 25px;
+    margin-bottom: 100px;
+  }
+  
+  .inline-block {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .logo {
+    padding: 1%;
+    text-align: center;
+    width: 23%;
+    /* background-color: green; */
+  }
+  
+  .display-flex {
+    display: flex;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .card > div {
+    border: 1px solid #000;
+    border-radius: 20px;
+  }
+  .card img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .card button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: orangered;
+  }
+  
+  main {
+    background: linear-gradient(0.25turn, #ebf8e1, #3f87a6, #ebf8e1, #f69d3c);
+  }
+  
+  header {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+  }
+  
+  nav {
+    width: 60%;
+  }
+  
+  nav > ul {
+    position: relative;
+  }
+  /* 
+  nav > ul > li {
+    padding-left: 22px;
+  } */
+  nav > ul > li:last-child {
+    color: red;
+    position: absolute;
+    right: 0;
+  }
+  
+  ul > li:nth-child(2) {
+    margin: 0px 20px;
+  }
+  
+  h4 > span {
+    color: red;
+  }
+  
+  #contact-form {
+    display: flex;
+    padding: 60px;
+  }
+  
+  #skills {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  
+  #skills div {
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+    padding: 60px 5px;
+  }
+  
+  #skills div:nth-child(2) {
+    margin: 0px 15px;
+  }
+  
+  form {
+    padding: 20px;
+    width: 60%;
+  }
+  
+  form > div {
+    margin-bottom: 15px;
+  }
+  
+  form > button {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+  }
+  
+  input {
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+  }
+  
+  textarea {
+    width: 100%;
+  }
